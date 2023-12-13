@@ -1,0 +1,209 @@
+andalusian_route = {	# Iberian Peninsula
+
+	
+	wealth = 150			# Total base wealth of trade route
+	
+	trade_post_display_trigger = {
+		OR = {
+		
+		province_id = 181	# kelunduo
+		province_id = 180	# gera
+		province_id = 182	# anda
+		province_id = 112	# france
+		province_id = 235	# ita
+		province_id = 356
+		province_id = 328
+		province_id = 78
+		province_id = 119
+		province_id = 334
+		province_id = 204
+		province_id = 340
+		
+		province_id = 233
+		province_id = 330
+		province_id = 490
+		province_id = 496
+		province_id = 334
+
+
+
+
+		}
+	}
+
+	modifier = {	# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		tribal_tax_modifier = 0.05
+		trade_route_value = 5
+		local_movement_speed = 0.05
+		tech_growth_modifier = 0.02
+		icon = 6
+		}
+
+	start = {	
+			235 112 78 328 1700 356 437 204 181 496  233 352 327 119 1772 340 # Start of trade route
+		}
+
+
+	### Inland route
+	
+	
+	
+	### western europe
+	
+	path = {	# milan  -by  1047 masai
+			
+			 235 234 232 236 237 1042 227 228 1252 222 1047
+			}
+		
+	path = {	# barcelona masai
+			
+			 204 1210 205 211 213 1168 220 1249 1047
+	}
+	
+			
+			
+	path = {	# Paris - Marseile by west
+			112 138 110 140 141 144 143 149
+	}
+	
+	path = {	# Paris - lolin
+			112 1166 130 930
+	}
+	
+	path = {	# brusai - lieri
+			78 93 1019 92 117 1056 116
+	}
+	
+	
+
+	
+
+	
+	path = {	# paris - Marseile by east
+		112 1166 130 136 240 1042 227 228 1252 222 1047 1249 220 1168 213 214 209 215 149
+		 
+		}
+			
+	### italy
+	
+	path = {	# florence - amalf
+			328 330 331 1135 243 333 1128 1105 851 334 
+
+			}
+			
+			
+	path = {	#  xixili sea
+			1700 1809 1810
+
+			}
+	path = {	#  xixili nap
+			340 935 334
+
+			}
+	
+	
+	
+	
+	###central eu 
+
+
+
+	path = {	# colon  - fut			
+		   	119 118 1007 952
+			}
+			
+
+
+	path = {	# colon  - lieri			
+		   	119  90 1057 116
+			}
+
+
+	path = {	# burage  - weiye			
+			437 362 1380 449 
+			}	
+			
+	path = {	# burage  - kiev			
+			437 438 440 526 527  531 534 536 546 1279 547
+			}	
+
+
+
+	path = {	# bolodi			
+		   1772 1820
+			}
+	
+	
+	
+	### path = {	# barcelona - burgos
+		###	199 1202 152 1204 202 1207 203
+	###		}
+	
+	path = {	# Cordoba - nakur
+			181 180 167 165 182 166 841
+			}		
+
+			
+			
+	path = {	#constan -anitioch
+			496 1259 741 750 742 1332 1344 745 746 748 755
+			}
+			
+	path = {	# bruges - london
+			78 79 80 1746 1738 73 32 72
+			}	
+		
+			
+			
+
+		
+	path = {	# genoa - milan
+		233 1318 234 235
+		}
+
+
+
+		
+	path = {	# bruges - paris
+		78 76 77 1179 113 1176 112
+		}
+		
+
+		
+		
+
+			
+	path = {	# bologna  - lecc			
+			352 1123 1133 329 350
+			}
+			
+			
+	path = {	# pisa  - Verona
+			327 323 1137 352
+			}
+		
+
+
+			
+	path = {	# milan  - venece			
+			235 1124 321 957 322 352 353 354 319 1131 355 356
+			}
+			
+	path = {	# venece  - milan			
+			356 355 1131 319 354 353 352 322 957 321 1124 235
+			}
+			
+
+	path = {	# constan xila
+		496 495 1016 940 492 490
+		}
+
+
+			
+
+
+
+
